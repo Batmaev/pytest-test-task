@@ -20,5 +20,5 @@ def test_mul(a, b, answer):
     assert math.isclose(a * b, answer)
 
 
-def test_zero_inf():
-    assert math.isnan(math.inf * 0)
+def test_03():
+    assert 0.1 + 0.2 != 0.3
